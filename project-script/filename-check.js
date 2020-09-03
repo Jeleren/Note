@@ -3,5 +3,5 @@
  * */
 
 const { execSync } = require("child_process")
-const res = execSync("git diff --staged --name-only")
+const res = execSync("git diff --staged --name-only").toString()
 console.log(res)
