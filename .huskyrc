@@ -1,5 +1,6 @@
 {
     "hooks": {
-        "pre-commit": "lint-staged && node project-script/filename-check.js"
+        "pre-commit": "lint-staged && node project-script/filename-check.js",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
 }

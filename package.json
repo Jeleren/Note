@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/Jeleren/Note#readme",
   "devDependencies": {
-    "husky": "^4.2.5"
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "commitlint": "^9.1.2",
+    "husky": "^4.2.5",
+    "prettier": "^2.1.1"
   },
   "dependencies": {
     "eslint": "^7.8.1",
