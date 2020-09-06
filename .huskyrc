@@ -1,5 +1,5 @@
 {
     "hooks": {
-        "pre-commit": "node project-script/filename-check.js"
+        "pre-commit": "lint-staged && node project-script/filename-check.js"
     }
 }
