@@ -1,4 +1,4 @@
-interface Padder {
+export interface Padder {
     getPaddingString(): string;
 }
 

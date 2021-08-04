@@ -19,7 +19,7 @@
 
    ```typescript
    /// <reference path="../index.d.ts" />
-
+   
    export default class Animal {
      public basicAttributes: World.IAnimal;
    }
@@ -29,8 +29,12 @@
 
    ```typescript
    import "../index";
-
+   
    export default class Animal {
      public basicAttributes: World.IAnimal;
    }
    ```
+
+Q1：命名空间中只能声明函数或者变量而不能定义实现他们吗
+
+A1 ：

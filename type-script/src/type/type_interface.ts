@@ -1,4 +1,17 @@
-// /**
+// import { Padder } from "./instanceof";
+// const a: Padder = {
+//     getPaddingString(): string {
+//         return 'a'
+//     }
+// }
+// console.log(a.getPaddingString())
+
+// interface ab {
+//     a: string,
+//     b: boolean
+// }
+// console.log(JSON.stringify(ab))
+//* *
 //  * type 可以说是类型别名 type alias
 //  * interface 就是接口
 //  */

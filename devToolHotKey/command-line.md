@@ -7,5 +7,7 @@
 3. 文件 & 文件夹 重命名 mv `oldname` `newname`
 4. 移动文件 mv - -
 5. 打开文件 open ~ （使用默认程序打开)
+6. 使用webstorm打开文件夹，利用webstorm的默认命令行 webstorm .
 
 #### 2. 编辑相关
+
